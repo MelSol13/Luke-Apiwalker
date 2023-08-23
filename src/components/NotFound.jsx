@@ -5,7 +5,7 @@ const NotFound = () => {
     return (
         <div className='noEncontrado'>
             <p>Estos no son los droides que estás buscando...</p>
-            <img className='w-100' src={notFound}/>
+            <img className='w-100' alt="imagen Obi Wan Kenobi" src={notFound}/>
         </div>
     );
 }
